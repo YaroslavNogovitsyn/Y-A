@@ -140,33 +140,6 @@
     object-fit: cover;
 }
 
-.brand-slider{
-    width: 90%;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.brand-slider h4{
-    margin-top: 150px;
-    background: #424147;
-    padding: 0 8px;
-    display: inline-block;
-    color: #f5e10a;
-    font-size: 40px;
-    margin-bottom: 30px;
-}
-.brand-slider p{
-    color: #424146;
-    font-size: 20px;
-    margin-bottom: 50px;
-}
-
-.brand-slider span{
-    background: pink;
-    padding: 5px 5px;
-}
-
-
 @media screen and (max-width: 400px){
     .header-container{
         width: 100%;
