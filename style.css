@@ -1,0 +1,268 @@
+.top-slide{
+    background: url("images/Zastavka/2.jpg") no-repeat;
+    padding-top: 120px;
+    padding-bottom: 280px;
+}
+.top-container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.top-slide .h2_{
+    background: pink;
+    display: inline;
+    font-size: 70px;
+    padding: 0 13px;
+}
+
+.top-slide p{
+    background: #414146;
+    display: inline;
+    font-size: 24px;
+    color: white;
+    padding: 0 13px;
+}
+
+.top-slide cite{
+    background: #414146;
+    display: inline;
+    font-size: 24px;
+    color: white;
+    padding: 0 13px;
+    margin-left: 600px;
+}
+
+.specialize-container{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.specialize-container h3{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+
+.specialize-container span{
+    background: pink;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.specialize-container p{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.first-p{
+    font-size: 20px;
+    color: white;
+}
+
+.bottom-card{
+    background: #414146;
+    position: relative;
+    width: 250px;
+    top: -30px;
+}
+
+.specialize-cards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.specialize-cards .card1{
+    float: left;
+}
+
+.specialize-cards img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.portfolio{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.portfolio h4{
+    margin-top: 100px;
+    background: #424147;
+    padding: 0 8px;
+    display: inline-block;
+    color: #f5e10a;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.portfolio p{
+    color: #424146;
+    font-size: 20px;
+}
+
+.toggles button{
+    border: none;
+    color: #FF0090;
+    background: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px 5px;
+}
+
+.toggles button:after{
+    content: ' / ';
+}
+
+.toggles button:last-child:after{
+    content: '';
+}
+
+.posts{
+    overflow: hidden;
+    width: 100%;
+    display: grid;
+    margin: 0 auto 100px auto;
+    grid-template-columns: auto auto auto auto;
+}
+
+.posts .soups .second_dish .dessert{
+    float: left;
+}
+
+.posts img {
+    width: 270px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.brand-slider{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.brand-slider h4{
+    margin-top: 150px;
+    background: #424147;
+    padding: 0 8px;
+    display: inline-block;
+    color: #f5e10a;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.brand-slider p{
+    color: #424146;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.brand-slider span{
+    background: pink;
+    padding: 5px 5px;
+}
+
+
+@media screen and (max-width: 400px){
+    .header-container{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .main-menu{
+        display: none;
+    }
+    .main-menu li{
+        width: 100%;
+        display: block;
+        font-size: 12px;
+    }
+    .main-menu a{
+        display: block;
+        padding: 8px;
+    }
+    .toggle-button{
+        text-align: center;
+        display: block;
+        cursor: pointer;
+        color: #000;
+        margin-top: 45px;
+    }
+    .toggle-button:after{
+        content: attr(data-open);
+        display: block;
+    }
+    #menu-checkbox:checked + nav[role="navigation"] .main-menu{
+        display: block;
+    }
+    #menu-checkbox:checked + nav[role="navigation"] .toggle-button:after{
+        content: attr(data-close);
+    }
+    .header-container a{
+        margin-right: -65px;
+    }
+    .main-menu{
+        position: relative;
+        top: 10px;
+        right: 50px;
+    }
+
+    .top-slide{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .top-slide h2{
+        font-size: 32px;
+    }
+
+    .top-slide p{
+        font-size: 16px;
+    }
+
+    .top-slide cite{
+        font-size: 16px;
+    }
+
+    .specialize-container p{
+        font-size: 16px;
+    }
+
+    .bottom-card{
+        background: #414146;
+        position: relative;
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .specialize-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        overflow: hidden;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .specialize-cards .card{
+        float: left;
+        margin-bottom: 10px;
+    }
+    .specialize-cards img {
+        width: 200px;
+        height: 150px;
+        object-fit: cover;
+    }
+
+    .posts{
+        overflow: hidden;
+        width: 100%;
+        display: grid;
+        margin: 0 auto;
+        grid-template-columns: auto;
+    }
+}

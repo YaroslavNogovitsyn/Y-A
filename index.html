@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Y&A</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="layout.css">
+</head>
+<body class="qwe">
+    <header id="start">
+        <div class="header-container">
+            <div class="logo">
+                <img src="images/Zastavka/logoza2.ru.png" alt="logo">
+            </div>
+            <input type="checkbox" id="menu-checkbox">
+            <nav role="navigation">
+                <label for="menu-checkbox" class="toggle-button" data-open="MENU"
+                       data-close="CLOSE" onclick></label>
+                <ul class="main-menu">
+                    <li class="li1"><a href="index.html">Home</a></li>
+                    <li class="li1"><a href="blog.html">Blog</a></li>
+                    <li class="li1"><a href="vacation.html">Vacation</a></li>
+                    <li class="li1"><a href="contacts.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="top-slide">
+            <div class="top-container">
+                <div><h2 class="h2_">Улетно!</h2></div>
+                <div><h2 class="h2_">Аппетитно!</h2></div>
+                <blockquote>
+                    <br>
+                    <div><p>Фотография может поблекнуть, безделушка может потеряться,</p></div>
+                    <div><p>бюст Вагнера может разбиться, но когда-либо проглотивший пищу</p></div>
+                    <div><p>в байрейтском ресторане будет носить её в себе до гробовой доски.</p></div>
+                    <br>
+                    <div><cite>Марк Твен </cite></div>
+                </blockquote>
+            </div>
+        </section>
+        <section class="specialize">
+            <div class="specialize-container">
+                <h3>Добро пожаловать<br>В мир <span>«Y&A»</span></h3>
+                <p>Мы специализируемся на самых изысканных блюдах планеты</p>
+                <div class="specialize-cards">
+                    <div class="card1">
+                        <div class="top-card">
+                            <img src="images/specializ/cook.jpg" alt="">
+                        </div>
+                        <div class="bottom-card">
+                            <p class="first-p">Лучшие повара страны</p>
+                        </div>
+                    </div>
+                    <div class="card1">
+                        <div class="top-card">
+                            <img src="images/specializ/obsl.jpg" alt="">
+                        </div>
+                        <div class="bottom-card">
+                            <p class="first-p">Шикарное обслуживание</p>
+                        </div>
+                    </div>
+                    <div class="card1">
+                        <div class="top-card">
+                            <img src="images/specializ/menu.jpg" alt="">
+                        </div>
+                        <div class="bottom-card">
+                            <p class="first-p">Авторское <br>меню</p>
+                        </div>
+                    </div>
+                    <div class="card1">
+                        <div class="top-card">
+                            <img src="images/specializ/food.jpg" alt="">
+                        </div>
+                        <div class="bottom-card">
+                            <p class="first-p">Лучшие <br>ингридиенты</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio">
+            <h4>Наши лучшие блюда</h4>
+            <p>Предлагаем посмотреть, облизаться, прийти и отведать эти вкусняшки</p>
+            <div class="toggles">
+                <button id="showall">SHOW ALL</button>
+                <button id="soups">SOUPS</button>
+                <button id="second_dish">SECOND DISH</button>
+                <button id="dessert">DESSERT</button>
+            </div>
+            <div class="posts">
+                <div class="post soups"><img src="images/dishes/soup1.webp" alt=""></div>
+                <div class="post second_dish"><img src="images/dishes/second1.webp" alt=""></div>
+                <div class="post dessert"><img src="images/dishes/ice_cream.jpg" alt=""></div>
+                <div class="post soups"><img src="images/dishes/soup2.webp" alt=""></div>
+                <div class="post second_dish"><img src="images/dishes/second2.webp" alt=""></div>
+                <div class="post dessert"><img src="images/dishes/berries.jpg" alt=""></div>
+                <div class="post soups"><img src="images/dishes/soup3.webp" alt=""></div>
+                <div class="post second_dish"><img src="images/dishes/second3.webp" alt=""></div>
+                <div class="post dessert"><img src="images/dishes/pancakes.jpg" alt=""></div>
+                <div class="post soups"><img src="images/dishes/soup4.webp" alt=""></div>
+                <div class="post second_dish"><img src="images/dishes/second4.webp" alt=""></div>
+                <div class="post dessert"><img src="images/dishes/desert1.webp" alt=""></div>
+            </div>
+        </section>
+
+        <!--<section class="brand-slider">
+            <h4>Наши клиенты</h4>
+            <p>В <span>«Y&A»</span> вкушают всевозможные знаменитости</p>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/client3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/client2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/client1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+        </section>-->
+    </main>
+    <footer class="footer1">
+        <div class="footer-container">
+             <div class="about-us">
+                <h4>About us</h4>
+                 <p>Наши повара и бармены успешно дополняют все это
+                 высококачественной кухней и напитками, включая
+                 широкую линейку разливного пива, соотоящую из
+                     традиционных ирландских и английсикх сортов,
+                 таких как Гинесс, Килкенни, Харп, Ньюкасл Браун
+                 Эль и Вестонс.</p>
+                 <a href="#">Reed more</a>
+                 <h4>Photo Stream</h4>
+                 <div class="images">
+                     <img src="images/dishes/1.jpg" alt="">
+                     <img src="images/dishes/3.webp" alt="">
+                     <img src="images/dishes/6.webp" alt="">
+                     <img src="images/dishes/4.jpg" alt="">
+                     <img src="images/dishes/5.webp" alt="">
+                     <img src="images/dishes/2.webp" alt="">
+                 </div>
+
+             </div>
+            <div class="tweets">
+                <h4>Latest tweets </h4>
+                <div class="twitter"><img src="images/dishes/twitter1.png" alt=""><p>Крутой ресторан, вкусная еда <span class="name">@$ТОНУ В МАR|TINI$</span> <br><span class="rest">#Реcторан Y&A</span></p></div>
+                <div class="twitter"><img src="images/dishes/twitter1.png" alt=""><p>Замечательные интерьеры, получился отличный ужин <span class="name">@Yoshakar</span> <br><span class="rest">#Реcторан Y&A</span></p></div>
+                <div class="twitter"><img src="images/dishes/twitter1.png" alt=""><p>Отлично провели время, огромное спасибо <span class="name">@Вася</span> <br><span class="rest">#Реcторан Y&A</span></p></div>
+                <div class="twitter"><img src="images/dishes/twitter1.png" alt=""><p>Невероятно вкусно, персонулу спасибо! <span class="name">@Akinogal</span> <br><span class="rest">#Реcторан Y&A</span></p></div>
+                <div class="twitter"><img src="images/dishes/twitter1.png" alt=""><p>Улетно отметили День Рождения! Огромное спасибо за подаренный торт! <span class="name">@Kelbine</span> <br><span class="rest">#Реcторан Y&A</span></p></div>
+                <br>
+                <h4>Social Connecting</h4>
+                <p>
+                    <a href="https://www.whatsapp.com/" target="_blank"><img src="images/dishes/whats.png" alt=""></a>
+                    <a href="https://www.facebook.com/" target="_blank"><img src="images/dishes/facebook.png" alt=""></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="images/dishes/insta.png" alt=""></a>
+                    <a href="https://twitter.com/" target="_blank"><img src="images/dishes/twitter1.png" alt=""></a>
+                    <a href="https://www.youtube.com/" target="_blank"><img src="images/dishes/youtube.png" alt=""></a></p>
+
+            </div>
+            <div class="contacts">
+                <h4>Contact info</h4>
+                <ul class="ul1">
+                    <dl>
+                        <dt>
+                            <li>5 Октября пр., 42В, Гатчина<br>
+                                Телефон: 677-97-36</li>
+                        </dt>
+                        <dt>
+                            <li>Богатырский пр., 4<br>
+                                Телефон: 394-75-45</li>
+                        </dt>
+                        <dt>
+                            <li>Ветеранов пр., 114, корп. 1<br>
+                                Телефон: 677-36-00</li>
+                        </dt>
+                    </dl>
+                </ul>
+                <a href="#start">Наверх</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>-->
+    <script src="script.js"></script>
+</body>
+</html>
