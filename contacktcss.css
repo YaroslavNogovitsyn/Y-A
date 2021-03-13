@@ -48,6 +48,7 @@ input[type=submit]:hover {
 body{
     margin: 0;
 }
+
 .wrapper{
     min-height: 100vh;
     display: flex;
